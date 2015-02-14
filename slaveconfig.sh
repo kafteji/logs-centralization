@@ -15,7 +15,7 @@
 
 
 
-#these commands install the logstash forwarder package and 
+#these commands install the logstash forwarder package and configure the slave
 
 echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' | sudo tee /etc/apt/sources.list.d/logstashforwarder.list
 
