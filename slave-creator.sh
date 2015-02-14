@@ -16,7 +16,7 @@
 if [ $# -ne 2 ]
 then 
 
-	echo " ERROR   : Invalid number of parameter please provide only two prameters !"
+	echo " ERROR   :  Invalid number of parameter please provide only two prameters !"
 	echo " Example :  ./slave-creator 5 192.168.122.2"
 	exit 2
 fi
