@@ -2,12 +2,12 @@
 
 
 #####################################################################################
-#  Date    :  12/20/2014 														                                #
-#  Author  :  Fahmi Ghediri														                              #
-#  Brief   :  this script will be sent to the target slave and will be remotely 	  #
-#			        executed via an ssh session in order to configure the slave which 	  #
-#             will be considered as a logstash client.      						            #
-#																					                                          #
+#  Date    :  12/20/2014 						            #
+#  Author  :  Fahmi Ghediri			                                    #
+#  Brief   :  this script will be sent to the target slave and will be remotely     #
+#             executed via an ssh session in order to configure the slave which     #
+#             will be considered as a logstash client. 			            #
+#                                                                                   #
 #####################################################################################
 
 
