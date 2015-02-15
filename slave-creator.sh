@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #####################################################################################
-#  Date    :  12/18/2014 														    #
-#  Author  :  Fahmi Ghediri														    #
-#  Brief   :  this script allows user to create a NUM virtual machines				#
-#			  based on NUM passed as a parameter. These VMs serve as salves         #
-#             to the pre-configured master. they send their activies logs to		#
-#             him in order to be processed by elasticsearch, kibana and logstash.	#
-#																					#
+#  Date    :  12/18/2014 							    #
+#  Author  :  Fahmi Ghediri							    #
+#  Brief   :  this script allows user to create a NUM virtual machines		    #
+#             based on NUM passed as a parameter. These VMs serve as salves         #
+#             to the pre-configured master. they send their activies logs to	    #
+#             him in order to be processed by elasticsearch, kibana and logstash.   #
+#										    #
 #####################################################################################
 
 
@@ -16,7 +16,7 @@
 if [ $# -ne 2 ]
 then 
 
-	echo " ERROR   : Invalid number of parameter please provide only two prameters !"
+	echo " ERROR   :  Invalid number of parameter please provide only two prameters !"
 	echo " Example :  ./slave-creator 5 192.168.122.2"
 	exit 2
 fi

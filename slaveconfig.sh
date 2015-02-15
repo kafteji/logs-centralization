@@ -2,12 +2,12 @@
 
 
 #####################################################################################
-#  Date    :  12/20/2014 														    #
-#  Author  :  Fahmi Ghediri														    #
-#  Brief   :  this script will be sent to the target slave and will be remotely 	#
-#			  executed via an ssh session in order to configure the slave which 	#
-#             will be considered as a logstash client.      						#
-#																					#
+#  Date    :  12/20/2014 						            #
+#  Author  :  Fahmi Ghediri			                                    #
+#  Brief   :  this script will be sent to the target slave and will be remotely     #
+#             executed via an ssh session in order to configure the slave which     #
+#             will be considered as a logstash client. 			            #
+#                                                                                   #
 #####################################################################################
 
 
@@ -15,7 +15,7 @@
 
 
 
-#these commands install the logstash forwarder package and 
+#these commands install the logstash forwarder package and configure the slave
 
 echo 'deb http://packages.elasticsearch.org/logstashforwarder/debian stable main' | sudo tee /etc/apt/sources.list.d/logstashforwarder.list
 
